@@ -5,6 +5,7 @@ DebtApp is a Java application designed for managing debt records using a MySQL d
 ### TABLES OVERVIEW:
 
 users table: Consists of a user_ID column: int (Primary key) (Auto_Increment) / user_name column: varchar(25) / user_verification_number: int.
+
 Debt_Table: record_ID column: int (Primary key) (Auto_Increment) / record_Amount column: numeric(8,2) / record_ID_Date: date / record_note: varchar(255) / user_ID: int (Foreign key, References users, Cascade on delete).
 
 ### User Login Process:
