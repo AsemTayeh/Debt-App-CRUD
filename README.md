@@ -2,6 +2,25 @@
 ## Introduction
 DebtApp is a Java application designed for managing debt records using a MySQL database backend. This README provides an overview of the functions implemented in the debtApp class and their functionalities.
 
+### How to run the app on your machine (WINDOWS):
+
+1. Download mySQL community Server
+
+2. Download JDBC from mySQL
+
+3. Create a schema using mySQL workbench or any UI for your database.
+
+4. Create the two tables mentioned below in the tables overview section.
+
+5. Add the .JAR file from the JDBC folder you downloaded as a module into your IDE (I used IntelliJ).
+
+6. Set up the data-base connection as shown in the constructor for the class debtApp(), use your own username, and your own schema name you made earlier.
+
+7. Set up a Main.java folder in your IDE and use the provided Main.java in this project
+
+8. Set up the debtApp.java class in your IDE and use the provided debtApp.java in this project
+
+
 ### TABLES OVERVIEW:
 
 users table: Consists of a user_ID column: int (Primary key) (Auto_Increment) / user_name column: varchar(25) / user_verification_number: int.
