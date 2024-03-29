@@ -548,7 +548,7 @@ public class debtApp {
 
         else {
 
-            System.out.println("Incorrect value, please choose a value from 1-10");
+            System.out.println("Incorrect value, please choose a value from 1-11");
         }
     }
 }
