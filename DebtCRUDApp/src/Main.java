@@ -15,7 +15,4 @@ public class Main {
            myDebtObj.eventHandler();
        }
     }
-
-    //password hashing, store hashed password
-    //create a git repositry.
 }
